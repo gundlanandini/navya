@@ -1,0 +1,190 @@
+
+.empower-container{
+    color:white;
+    background-image: url("./empower.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:40px; 
+    margin:20px; 
+}
+
+.empower-container>h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    width:70%;
+}
+.empower-content{
+    width:50%;
+    margin-bottom: 10px;
+}
+.empower-buttons>button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: rgb(85, 171, 85);
+    color: white;
+    border:none;
+    margin-right:15px ;
+}
+.empower-buttons{
+    margin-top: 20px;
+}
+.advisorbutton{
+    background-color: rgb(98, 98, 184);
+}
+@media (max-width:720px){
+    .empower-container>h1{
+        width:100%;
+    }
+.empower-content{
+     width:100%;
+}
+}
+@media(max-width:720px){
+    .empower-container>h1{
+        font-size:40px;
+    }
+}
+.empower-products>li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+  .tickimage{
+    height:15px;
+    width:15px;
+  }
+
+.logo{
+    gap:10px;
+    margin-left: 40px;
+
+}
+.web{
+    background-color: #5665B0;
+    display:flex;
+    gap:60px;
+    margin: 20px;
+    position: fixed;
+    color: white;
+    padding-top:10px;
+    
+
+}
+.button5{
+    background-color:greenyellow;
+    border-radius: 20px;
+    text-align:start ;
+}
+.button6{
+    border-radius: 20px;
+    color:white;
+    background-color: greenyellow;
+}
+.button7{
+    border-radius: 20px;
+    color:blue;
+}
+.div{
+    height: 200px;
+    width:200px;    
+}
+.home{
+    display:flex;
+    gap:10px;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.CIBL-container{
+    display: flex;
+    background-color: rgb(251, 248, 248);
+    padding: 40px;
+    margin:20px;
+}
+.CIBL-image{
+    height: 200px;
+    width:200px;
+    padding-top: 50px;
+}
+.score{
+    border-radius: 25px;
+    background-color:greenyellow;
+    color:white;
+}
+.elig-image{
+    height: 200px;
+    width:  200px;
+
+}
+.elig-container{
+    display:flex;
+    padding: 40px;
+    gap:20px;
+    background-color:#5665B0;
+    margin: 20px;
+}
+.elig-button{
+    border-radius: 25px;
+    background-color:rgb(114, 179, 114);
+    color:white;
+}
+@media (max-width:720px){
+    .elig-content>h1{
+        width:100%;
+    }
+
+}
+@media(max-width:720px){
+    .elig-content>h1{
+        font-size:40px;
+    }
+}
+
+
+.footer-main{
+    display:flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap:20px;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: rgb(249, 247, 247);
+
+
+}
+ .footer-logo{
+    width:130px;
+ }
+ .footer-content>h4{
+    color: rgb(95, 95, 182);
+
+ }
+ .footer-content{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+ }
+ .main-header{
+         margin:30px;
+
+ }
+ .name-header{
+    display: flex;
+    gap:10px;
+ }
+ .namer{
+    display: flex;
+    margin: 20px;
+ }
+ .check-imag{
+       height: 200px;
+       width: 300px;
+ }
+ .check-button{
+    border-radius: 25px;
+    background-color: rgb(39, 250, 39);
+    color:white;
+    margin-left: 60px;
+
+ }
+ 
