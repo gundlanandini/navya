@@ -22,6 +22,7 @@
         .div2{
             height: 200px;
             width:200px;
+            
         }
         .list{
             display:flex;
@@ -41,26 +42,30 @@
             margin-top: 20px;
             padding: 10px 20px;
         }
-        @media(max-width:600px){
+        @media(max-width:700px){
             .list{
                 flex-wrap: wrap-reverse;
             }
         }
         .div1{
             height: 200px;
-            width:200px;
-    
-            
+            width:200px;  
         }
         .loan{
             display:flex;
             gap:10px;
             padding-top: 20px;
-            margin: 20px;
-
+            margin: 20px;  
+        }
+        @media(max-width:700px){
+            .loan{
+                flex-wrap: wrap;
+            }
             
         }
-
+                
+                
+ 
             
     </style>
 </head>
@@ -170,9 +175,9 @@
            100% digital process. Say goodbye to financial stress and hello to
            homeownership made easy!
          </p>
-          <h6 style="color:blue;"> 
+          <em style="color:blue;"> 
             Don’t just dream of your perfect home—move in faster with FairNeft!
-          </h6>
+          </em><br>
          <button class="button6">Apply Loan</button> <button class="button7">Talk to advisor</button>
      </div>
      <div class="image-loan">
@@ -228,7 +233,7 @@
    </div>
 
    <div class="main-header">
-     <h2>
+     <h2 class="main-content">
         We re Here to Help-
         Reach Out for Support
         or Queries Anytime!
@@ -259,21 +264,16 @@
           <div>
             <input type="checkbox">
             <label>You agree to our friendly privacy policy.</label>
-        
-          </div>  
+         </div> 
+         <button class="check-button">Submit</button> 
      </form>
      <div>
          <img  class="check-imag" src="./Contact.svg">
      </div>
   </div> 
-     <button class="check-button">Submit</button>
+     
 </div>
    
-
-
-
-
-
    <footer class="footer-main">
      <div class="footer-content">
             <img class="footer-logo" src="./footer.png">

@@ -6,7 +6,7 @@
     background-position: center;
     background-size: cover;
     padding:40px; 
-    margin:20px; 
+    /* margin:10px; */
 }
 
 .empower-container>h1{
@@ -63,10 +63,11 @@
     background-color: #5665B0;
     display:flex;
     gap:60px;
-    margin: 20px;
+   /* margin: 20px; */
     position: fixed;
     color: white;
     padding-top:10px;
+    width: 100%;
     
 
 }
@@ -79,14 +80,19 @@
     border-radius: 20px;
     color:white;
     background-color: greenyellow;
+    margin-top: 20px;
+    padding: 10px 20px;
 }
 .button7{
     border-radius: 20px;
     color:blue;
+    margin-top: 20px;
+    padding: 10px 20px;
 }
 .div{
     height: 200px;
-    width:200px;    
+    width: 200px;
+
 }
 .home{
     display:flex;
@@ -94,12 +100,18 @@
     padding-top: 20px;
     margin: 20px;
 }
+ @media(max-width:700px){
+    .home{
+        flex-wrap: wrap-reverse;
+    }
+
+ }
 
 .CIBL-container{
     display: flex;
     background-color: rgb(251, 248, 248);
     padding: 40px;
-    margin:20px;
+    /* margin:20px; */
 }
 .CIBL-image{
     height: 200px;
@@ -110,7 +122,22 @@
     border-radius: 25px;
     background-color:greenyellow;
     color:white;
+    margin-top: 20px;
+    padding: 10px 20px;
 }
+@media(max-width:700px){
+    .CIBL-container {
+        flex-wrap: wrap-reverse;
+    }
+}
+@media(max-width:700px){
+    .CIBL-image{
+        height:300px;
+        width:300px;
+    }
+
+}
+
 .elig-image{
     height: 200px;
     width:  200px;
@@ -121,18 +148,22 @@
     padding: 40px;
     gap:20px;
     background-color:#5665B0;
-    margin: 20px;
+    /* margin: 20px; */
 }
 .elig-button{
     border-radius: 25px;
     background-color:rgb(114, 179, 114);
     color:white;
+    margin-top: 20px;
+    padding: 10px 20px;
 }
 @media (max-width:720px){
     .elig-content>h1{
         width:100%;
     }
-
+    .elig-container{
+        flex-wrap: wrap-reverse;
+    }
 }
 @media(max-width:720px){
     .elig-content>h1{
@@ -147,7 +178,6 @@
     padding: 40px;
     gap:20px;
     flex-wrap: wrap;
-    margin: 20px;
     background-color: rgb(249, 247, 247);
 
 
@@ -163,6 +193,13 @@
     display:flex;
     flex-direction: column;
     gap:10px;
+ }
+
+ @media(max-width:700px){
+    .footer-main{
+        flex-wrap: wrap;
+    }
+
  }
  .main-header{
          margin:30px;
@@ -184,7 +221,15 @@
     border-radius: 25px;
     background-color: rgb(39, 250, 39);
     color:white;
-    margin-left: 60px;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding: 10px 40px;
 
  }
+ /* @media(max-width:700){
+    .main-content{
+        font-size: 50px;
+    }
+ } */
+
  
